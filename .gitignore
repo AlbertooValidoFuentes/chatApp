@@ -1,0 +1,81 @@
+# === Java / Spring / Maven / Gradle ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+*.out
+
+# Maven
+target/
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEs
+.idea/
+*.iws
+*.ipr
+*.iml
+*.swp
+.vscode/
+*.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# === iOS / Swift / Xcode ===
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/xcode/package.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# CocoaPods
+Pods/
+Podfile.lock
+xcshareddata/
+.xcworkspace/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# SPM
+.swiftpm/
+
+# === Others ===
+.env
+*.env
+.env.*
+node_modules/
+npm-debug.log*
+
+# === Docs ===
+docs/*.tmp
+docs/*.log
