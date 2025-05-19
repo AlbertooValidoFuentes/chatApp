@@ -1,4 +1,4 @@
-package com.albertovalido.chatapp.backend;
+package com.albertovalido.chatapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
