@@ -1,5 +1,6 @@
 package com.albertovalido.chatapp.application.dto;
 
+import com.albertovalido.chatapp.domain.model.enums.MessageStatus;
 import lombok.Data;
 
 import java.time.Instant;
@@ -22,5 +23,5 @@ public class MessageDTO {
 
     private Instant editedAt;
 
-    private String status;
+    private MessageStatus status;
 }

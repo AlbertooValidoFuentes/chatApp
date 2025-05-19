@@ -1,5 +1,6 @@
 package com.albertovalido.chatapp.application.dto;
 
+import com.albertovalido.chatapp.domain.model.enums.UserStatus;
 import lombok.Data;
 
 import java.time.Instant;
@@ -20,7 +21,7 @@ public class UserDTO {
 
     private Instant createdAt;
 
-    private String status;
+    private UserStatus status;
 
     private String avatarUrl;
 
