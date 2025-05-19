@@ -5,6 +5,10 @@ import lombok.Data;
 import java.time.Instant;
 import java.util.Set;
 
+/**
+ * DTO for user.
+ */
+
 @Data
 public class UserDTO {
 
@@ -13,8 +17,6 @@ public class UserDTO {
     private String username;
 
     private String email;
-
-    private String passwordHash;
 
     private Instant createdAt;
 

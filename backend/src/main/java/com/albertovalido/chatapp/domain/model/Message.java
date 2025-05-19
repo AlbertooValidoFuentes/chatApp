@@ -1,6 +1,7 @@
 package com.albertovalido.chatapp.domain.model;
 
 
+import com.albertovalido.chatapp.domain.model.enums.MessageStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,6 +10,10 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
+
+/**
+ * Represents a message in the application.
+ */
 
 @Data
 @Builder
@@ -30,5 +35,5 @@ public class Message {
 
     private Instant editedAt;
 
-    private String status;
+    private MessageStatus status;
 }

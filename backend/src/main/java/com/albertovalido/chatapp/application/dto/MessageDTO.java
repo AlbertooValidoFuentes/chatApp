@@ -4,6 +4,9 @@ import lombok.Data;
 
 import java.time.Instant;
 
+/**
+ * DTO for message.
+ */
 @Data
 public class MessageDTO {
 

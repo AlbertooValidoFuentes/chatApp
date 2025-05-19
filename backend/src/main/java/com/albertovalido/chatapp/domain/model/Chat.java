@@ -1,6 +1,7 @@
 package com.albertovalido.chatapp.domain.model;
 
 
+import com.albertovalido.chatapp.domain.model.enums.ChatType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -10,6 +11,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
 import java.util.Set;
+
+/**
+ * Represents a chat in the application.
+ */
 
 @Data
 @Builder
@@ -25,7 +30,7 @@ public class Chat {
 
     private Set<String> participantIds;
 
-    private String type;
+    private ChatType type;
 
     private Instant createdAt;
 
