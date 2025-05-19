@@ -1,4 +1,4 @@
-package com.albertovalido.chatapp.backend;
+package com.albertovalido.chatapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
