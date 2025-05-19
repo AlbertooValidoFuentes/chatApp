@@ -1,10 +1,14 @@
 package com.albertovalido.chatapp.application.dto;
 
+import com.albertovalido.chatapp.domain.model.enums.ChatType;
 import lombok.Data;
 
 import java.time.Instant;
 import java.util.Set;
 
+/**
+ * DTO for chat
+ */
 @Data
 public class ChatDTO {
 
@@ -14,7 +18,7 @@ public class ChatDTO {
 
     private Set<String> participantIds;
 
-    private String type;
+    private ChatType type;
 
     private Instant createdAt;
 

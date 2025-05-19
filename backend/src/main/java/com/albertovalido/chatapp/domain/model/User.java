@@ -1,5 +1,6 @@
 package com.albertovalido.chatapp.domain.model;
 
+import com.albertovalido.chatapp.domain.model.enums.UserStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,6 +10,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.Instant;
 import java.util.Set;
+
+
+/**
+ * Represents a user in the application.
+ */
 
 @Data
 @Builder
@@ -28,7 +34,7 @@ public class User {
 
     private Instant createdAt;
 
-    private String status;
+    private UserStatus status;
 
     private String avatarUrl;
 
